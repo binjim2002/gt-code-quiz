@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ​
-    <!-- Bootstrap CSS -->
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Javascript Quiz</title>
     <link rel="stylesheet" href="style.css">
@@ -14,8 +15,8 @@
         <header>
         <div class="row" class="text-center">
                 <div class="col-md">
-                    <div id="Highscore">Highscore:</div>
-                        <div id="remaining-time">Time Remaining:</div>
+                    <div class= "text-center" id="Highscore">Highscore:</div>
+                        <div class="text-center" id="remaining-time">Time Remaining:</div>
                 </div>
         </div>
     </header>
@@ -24,10 +25,10 @@
             <div class="jumbotron" id="quiz-screen">
                 <div class="col-md text-align-center" id="introEl">
                 </div>
-                <h1 class="text-center">Javascript Code Quiz</h1>
+                <h5 class="text-center">Javascript Code Quiz</h5>
                 <p id="openingPrompt">Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize you ten seconds! Good luck!
                 </p>
-                <button type="button btn-primary" id="startButton">Start</button>
+                <button class="btn btn-primary" type="button" id="startButton">Start</button>
             </div>
      </div>
      <div class="col text-align-center mt-5 text-center" id="highscore">
