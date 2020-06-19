@@ -1,7 +1,7 @@
 var timeEl = document.querySelector("time");
 var mainEl = document.getElementById("main");
 var startButton = document.getElementById("startButton");
-var timer = document.getElementById("remainig-time");
+var timer = document.getElementById("remaining-time");
 var responses = document.getElementById("answers");
 var testscreen = document.getElementById("quiz-screen");
 var questionsArray = [{
@@ -26,13 +26,13 @@ var questionsArray = [{
   answers: ["Javascript", "terminal/bash", "for loops", "console log"],
   rightAnswer: "console log",
 }];
+console.log(timer)
 
 var currentQuestionIndex = 0;
-var userScore = 0
-  ;
+var userScore = 0;
+var secondsLeft = "75";
 
 function startTime() {
-  var secondsLeft = "75";
   var timerInterval = setInterval(function () {
     secondsLeft--;
 
@@ -52,7 +52,7 @@ function displayQuestions() {
   var newEl = document.createElement("h4");
   newEl.textContent = currentQuestion.question;
   testscreen.append(newEl);
-  for (var i = 0; i < currentQuestion.answers.length; i++)
+  for (var i = 0; i < currentQuestion.answers.length; i++) {
     var answersElement = document.createElement("button");
 
   answersElement.setAttribute("class", "answers-i");
@@ -76,7 +76,7 @@ function displayQuestions() {
     }
     console.log(userScore);
   })
-}
+}}
 startButton.addEventListener("click", function () {
   displayQuestions();
   startTime()
