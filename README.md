@@ -1,1 +1,0 @@
-# gt-code-quiz
