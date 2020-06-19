@@ -15,6 +15,9 @@ if you get a wrong question then you get penilize by losing 10 seconds of of you
 
 8. create a repository, clone add commit and push "the code quiz".
 
+9. Submit my URL:
 
+ https://binjim2002.github.io/gt-code-quiz/.
+ https://github.com/binjim2002/gt-code-quiz
 
 
