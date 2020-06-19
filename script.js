@@ -58,7 +58,15 @@ function displayQuestions() {
   answersElement.setAttribute("class", "answers-i");
   answersElement.setAttribute("class", "button btn-primary m-5 rounded-pill");
   answersElement.setAttribute("data-index", i);
-
+  var quizAnswers = currentQuestion.answers[i];
+  answersElement.textContent = quizAnswers;
+ testscreen.append(answersElement);
+ answersElement.addEventListener("click", function(event){
+   currentQuestionIndex++;
+   console.log(event.target);
+   displayQuestions();
+   var userchoice = event.target.textContent;
+   if (userchoice === currentQuestion.rightAnswer) {
  
      alert("correct");
      userScore++;
