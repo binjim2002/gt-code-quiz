@@ -7,13 +7,13 @@ Installation
 Usage
 Credits
 
-Installation
+II. Installation
 CODEQUIZis a friendly app that our clients will be able to use. This will be install to the HR's computer or the Business owner's compny in case there is not HR sur us small businesses. To install it you need to run config/schema.sql . For Demo purposes you may want to additionally execute confi/seeds.sql .
 
-Usage
+III. Usage
 How to use this app? very simple. You only have to click on https://binjim2002.github.io/gt-code-quiz/. and this will take you to you quiz page 
 
-Credits
+IV. Credits
 This app was design and built by binjim2002 (Jimmy B. Kazadi)
 
 my URL: https://binjim2002.github.io/gt-code-quiz/
